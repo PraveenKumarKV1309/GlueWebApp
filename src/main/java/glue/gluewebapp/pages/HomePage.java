@@ -16,6 +16,33 @@ public class HomePage extends BaseClass {
 	}
 
 	// ----------------------------------------------------
+	// User Profile Element
+	@FindBy(xpath = "//a[contains(@href,'professional-details')]")
+	private WebElement userProfile;
+
+	public WebElement getUserProfileButton() {
+		return userProfile;
+	}
+
+	// ----------------------------------------------------
+	// Glue Logo
+	@FindBy(xpath = "//div[contains(@class,'nav-header')]//img[contains(@src,'glue')]")
+	private WebElement glueLogo;
+
+	public WebElement getGlueLogo() {
+		return glueLogo;
+	}
+
+	// ----------------------------------------------------
+	// Light/Dark Mode button
+	@FindBy(xpath = "//div[contains(@class,'nav-header')]//button[@type='button']")
+	private WebElement lightOrDarkModeButton;
+
+	public WebElement getlightOrDarkModeButton() {
+		return lightOrDarkModeButton;
+	}
+
+	// ----------------------------------------------------
 	// Availability Menu
 	@FindBy(xpath = "//p[text()=\"Availability\"]")
 	private WebElement availabilityMenu;
@@ -24,66 +51,68 @@ public class HomePage extends BaseClass {
 		return availabilityMenu;
 	}
 
-	// -----------------------------------------------------
-	// Email field
-	@FindBy(xpath = "//input[@id=\"email\"]")
-	private WebElement emailField;
+	// ----------------------------------------------------
+	// Utilization Menu
+	@FindBy(xpath = "//a[@href=\"/utilization/\"]")
+	private WebElement utilizationMenu;
 
-	public WebElement getEmailField() {
-		return emailField;
+	public WebElement getUtilizationMenu() {
+		return utilizationMenu;
 	}
 
-	public void setEmailField(String emailValue) {
-		emailField.sendKeys(emailValue);
-	}
+	// ----------------------------------------------------
 
-	// -----------------------------------------------------
-	// Password field
-	@FindBy(xpath = "//input[@id=\"auth-login-password\"]")
-	private WebElement passwordField;
+	// My Projects Dropdown
+	@FindBy(xpath = "//p[text()=\"My Projects\"]")
+	private WebElement myProjectsMenu;
 
-	public WebElement getPasswordField() {
-		return passwordField;
-	}
-
-	public void setPasswordField(String passwordValue) {
-		passwordField.sendKeys(passwordValue);
+	public WebElement getMyProjectsMenu() {
+		return myProjectsMenu;
 	}
 
 	// -----------------------------------------------------
-	// Eye icon
-	@FindBy(xpath = "//button[@aria-label=\"toggle password visibility\"]")
-	private WebElement eyeIcon;
+	// View All Projects Menu
+	@FindBy(xpath = "//p[text()=\"My Projects\"]")
+	private WebElement viewAllProjectsMenu;
 
-	public WebElement getEyeIcon() {
-		return eyeIcon;
+	public WebElement getViewAllProjectsMenu() {
+		return viewAllProjectsMenu;
 	}
 
 	// -----------------------------------------------------
-	// Password visible text
-	@FindBy(xpath = "//input[@id=\"auth-login-password\" and @type=\"text\"]")
-	private WebElement visiblePassword;
+	// View All Peers Menu
+	@FindBy(xpath = "//a[@href=\"/peers/\"]")
+	private WebElement viewAllPeersMenu;
 
-	public WebElement getVisiblePassword() {
-		return visiblePassword;
+	public WebElement getViewAllPeersMenu() {
+		return viewAllPeersMenu;
 	}
 
 	// -----------------------------------------------------
-	// Password hidden text
-	@FindBy(xpath = "//input[@id=\"auth-login-password\" and @type=\"password\"]")
-	private WebElement hiddenPassword;
+	// Work Status Report Menu
+	@FindBy(xpath = "//a[@href='workStatus']")
+	private WebElement workStatusReportMenu;
 
-	public WebElement getHiddenPassword() {
-		return hiddenPassword;
+	public WebElement getWorkStatusReportMenu() {
+		return workStatusReportMenu;
 	}
 
 	// -----------------------------------------------------
-	// Login Button
-	@FindBy(xpath = "//button[@type=\"submit\" and text()=\"Login\"]")
-	private WebElement loginButton;
+	// Announcement Menu
+	@FindBy(xpath = "//a[@href=\"/announcement/\"]")
+	private WebElement announcementMenu;
 
-	public WebElement getLoginButton() {
-		return loginButton;
+	public WebElement getAnnouncementMenu() {
+		return announcementMenu;
+	}
+
+	// -----------------------------------------------------
+	// Logout Menu
+	@FindBy(xpath = "//p[text()='Logout']")
+	private WebElement logoutMenu;
+
+	public WebElement getLogoutMenu() {
+		return logoutMenu;
 	}
 
 }
