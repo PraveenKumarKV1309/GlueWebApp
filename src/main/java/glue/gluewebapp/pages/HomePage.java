@@ -72,7 +72,7 @@ public class HomePage extends BaseClass {
 
 	// -----------------------------------------------------
 	// View All Projects Menu
-	@FindBy(xpath = "//p[text()=\"My Projects\"]")
+	@FindBy(xpath = "//a[@href=\"/projects/\"]")
 	private WebElement viewAllProjectsMenu;
 
 	public WebElement getViewAllProjectsMenu() {
