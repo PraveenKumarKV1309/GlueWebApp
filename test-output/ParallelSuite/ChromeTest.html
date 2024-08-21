@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>ChromeTest</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/0/1</td>
+<td>Tests passed/Failed/Skipped:</td><td>7/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Jul 22 18:32:59 IST 2024</td>
+<td>Started on:</td><td>Thu Aug 22 00:23:33 IST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (231 ms)</td>
+<tr><td>Total time:</td><td>63 seconds (63419 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,108 +67,48 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='glue.gluewebapp.testcases.LoginTest.initialize()'><b>initialize</b><br>Test class: glue.gluewebapp.testcases.LoginTest</td>
-<td><div><pre>java.lang.RuntimeException: Failed to call launch browser method: launchingbrowserChrome
-	at glue.gluewebapp.library.BaseClass.initialize(BaseClass.java:52)
-Caused by: java.lang.NoSuchMethodException: glue.gluewebapp.testcases.LoginTest.launchingbrowserChrome()
-	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2675)
-	at glue.gluewebapp.library.BaseClass.initialize(BaseClass.java:46)
-	... 19 more
-... Removed 19 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace151593342", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace151593342'><pre>java.lang.RuntimeException: Failed to call launch browser method: launchingbrowserChrome
-	at glue.gluewebapp.library.BaseClass.initialize(BaseClass.java:52)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:317)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: java.lang.NoSuchMethodException: glue.gluewebapp.testcases.LoginTest.launchingbrowserChrome()
-	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2675)
-	at glue.gluewebapp.library.BaseClass.initialize(BaseClass.java:46)
-	... 19 more
-</pre></div></td>
-<td>0</td>
-<td>glue.gluewebapp.testcases.LoginTest@2e3967ea</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-skipped'>
-<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='glue.gluewebapp.testcases.LoginTest.closeBrowser()'><b>closeBrowser</b><br>Test class: glue.gluewebapp.testcases.LoginTest</td>
+<td title='glue.gluewebapp.testcases.LoginTest.eyeIconDisabledModeTest()'><b>eyeIconDisabledModeTest</b><br>Test class: glue.gluewebapp.testcases.LoginTest</td>
 <td></td>
-<td>-1721653380</td>
-<td>glue.gluewebapp.testcases.LoginTest@2e3967ea</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-skipped'>
-<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='glue.gluewebapp.testcases.LoginTest.CheckLaunch()'><b>CheckLaunch</b><br>Test class: glue.gluewebapp.testcases.LoginTest</td>
-<td><div><pre>java.lang.RuntimeException: Failed to call launch browser method: launchingbrowserChrome
-	at glue.gluewebapp.library.BaseClass.initialize(BaseClass.java:52)
-Caused by: java.lang.NoSuchMethodException: glue.gluewebapp.testcases.LoginTest.launchingbrowserChrome()
-	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2675)
-	at glue.gluewebapp.library.BaseClass.initialize(BaseClass.java:46)
-	... 19 more
-... Removed 19 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace897082506", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace897082506'><pre>java.lang.RuntimeException: Failed to call launch browser method: launchingbrowserChrome
-	at glue.gluewebapp.library.BaseClass.initialize(BaseClass.java:52)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:317)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: java.lang.NoSuchMethodException: glue.gluewebapp.testcases.LoginTest.launchingbrowserChrome()
-	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2675)
-	at glue.gluewebapp.library.BaseClass.initialize(BaseClass.java:46)
-	... 19 more
-</pre></div></td>
 <td>0</td>
-<td>glue.gluewebapp.testcases.LoginTest@2e3967ea</td></tr>
+<td>glue.gluewebapp.testcases.LoginTest@76b1e9b8</td></tr>
+<tr>
+<td title='glue.gluewebapp.testcases.LoginTest.eyeIconEnableModeTest()'><b>eyeIconEnableModeTest</b><br>Test class: glue.gluewebapp.testcases.LoginTest</td>
+<td></td>
+<td>0</td>
+<td>glue.gluewebapp.testcases.LoginTest@76b1e9b8</td></tr>
+<tr>
+<td title='glue.gluewebapp.testcases.LoginTest.validLoginScenario()'><b>validLoginScenario</b><br>Test class: glue.gluewebapp.testcases.LoginTest</td>
+<td></td>
+<td>36</td>
+<td>glue.gluewebapp.testcases.LoginTest@76b1e9b8</td></tr>
+<tr>
+<td title='glue.gluewebapp.testcases.LoginTest.emptyEmailLoginTest()'><b>emptyEmailLoginTest</b><br>Test class: glue.gluewebapp.testcases.LoginTest</td>
+<td></td>
+<td>7</td>
+<td>glue.gluewebapp.testcases.LoginTest@76b1e9b8</td></tr>
+<tr>
+<td title='glue.gluewebapp.testcases.LoginTest.invalidEmailLoginTest()'><b>invalidEmailLoginTest</b><br>Test class: glue.gluewebapp.testcases.LoginTest</td>
+<td></td>
+<td>1</td>
+<td>glue.gluewebapp.testcases.LoginTest@76b1e9b8</td></tr>
+<tr>
+<td title='glue.gluewebapp.testcases.LoginTest.invalidPasswordLoginTest()'><b>invalidPasswordLoginTest</b><br>Test class: glue.gluewebapp.testcases.LoginTest</td>
+<td></td>
+<td>1</td>
+<td>glue.gluewebapp.testcases.LoginTest@76b1e9b8</td></tr>
+<tr>
+<td title='glue.gluewebapp.testcases.LoginTest.emptyPasswordLogin()'><b>emptyPasswordLogin</b><br>Test class: glue.gluewebapp.testcases.LoginTest</td>
+<td></td>
+<td>2</td>
+<td>glue.gluewebapp.testcases.LoginTest@76b1e9b8</td></tr>
 </table><p>
 </body>
 </html>

@@ -2,76 +2,76 @@
 <testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-08T21:08:17 IST" name="Default suite" finished-at="2024-08-08T21:08:24 IST" duration-ms="6885">
+  <suite started-at="2024-08-22T00:23:33 IST" name="ParallelSuite" finished-at="2024-08-22T00:24:36 IST" duration-ms="63419">
     <groups>
     </groups>
-    <test started-at="2024-08-08T21:08:17 IST" name="Default test" finished-at="2024-08-08T21:08:24 IST" duration-ms="6885">
+    <test started-at="2024-08-22T00:23:33 IST" name="ChromeTest" finished-at="2024-08-22T00:24:36 IST" duration-ms="63419">
       <class name="glue.gluewebapp.testcases.LoginTest">
-        <test-method is-config="true" signature="initialize()[pri:0, instance:glue.gluewebapp.testcases.LoginTest@2e6a8155]" started-at="2024-08-08T21:08:15 IST" name="initialize" finished-at="2024-08-08T21:08:17 IST" duration-ms="2496" status="PASS">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:glue.gluewebapp.testcases.LoginTest@76b1e9b8]" started-at="2024-08-22T00:23:22 IST" name="initialize" finished-at="2024-08-22T00:23:33 IST" duration-ms="10666" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method is-config="true" signature="intitialize()[pri:0, instance:glue.gluewebapp.testcases.LoginTest@2e6a8155]" started-at="2024-08-08T21:08:17 IST" name="intitialize" finished-at="2024-08-08T21:08:17 IST" duration-ms="22" status="PASS">
+        <test-method is-config="true" signature="intitialize()[pri:0, instance:glue.gluewebapp.testcases.LoginTest@76b1e9b8]" started-at="2024-08-22T00:23:33 IST" name="intitialize" finished-at="2024-08-22T00:23:33 IST" duration-ms="92" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- intitialize -->
-        <test-method is-config="true" signature="clearFields()[pri:0, instance:glue.gluewebapp.testcases.LoginTest@2e6a8155]" started-at="2024-08-08T21:08:17 IST" name="clearFields" finished-at="2024-08-08T21:08:18 IST" duration-ms="671" status="PASS">
+        <test-method is-config="true" signature="clearFields()[pri:0, instance:glue.gluewebapp.testcases.LoginTest@76b1e9b8]" started-at="2024-08-22T00:23:33 IST" name="clearFields" finished-at="2024-08-22T00:23:42 IST" duration-ms="8657" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clearFields -->
-        <test-method signature="emptyEmailLoginTest()[pri:0, instance:glue.gluewebapp.testcases.LoginTest@2e6a8155]" started-at="2024-08-08T21:08:18 IST" name="emptyEmailLoginTest" finished-at="2024-08-08T21:08:18 IST" duration-ms="270" status="PASS">
+        <test-method signature="emptyEmailLoginTest()[pri:0, instance:glue.gluewebapp.testcases.LoginTest@76b1e9b8]" started-at="2024-08-22T00:23:42 IST" name="emptyEmailLoginTest" finished-at="2024-08-22T00:23:49 IST" duration-ms="7852" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- emptyEmailLoginTest -->
-        <test-method is-config="true" signature="clearFields()[pri:0, instance:glue.gluewebapp.testcases.LoginTest@2e6a8155]" started-at="2024-08-08T21:08:18 IST" name="clearFields" finished-at="2024-08-08T21:08:19 IST" duration-ms="410" status="PASS">
+        <test-method is-config="true" signature="clearFields()[pri:0, instance:glue.gluewebapp.testcases.LoginTest@76b1e9b8]" started-at="2024-08-22T00:23:49 IST" name="clearFields" finished-at="2024-08-22T00:23:51 IST" duration-ms="1114" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clearFields -->
-        <test-method signature="emptyPasswordLogin()[pri:1, instance:glue.gluewebapp.testcases.LoginTest@2e6a8155]" started-at="2024-08-08T21:08:19 IST" name="emptyPasswordLogin" finished-at="2024-08-08T21:08:19 IST" duration-ms="320" status="PASS">
+        <test-method signature="emptyPasswordLogin()[pri:1, instance:glue.gluewebapp.testcases.LoginTest@76b1e9b8]" started-at="2024-08-22T00:23:51 IST" name="emptyPasswordLogin" finished-at="2024-08-22T00:23:53 IST" duration-ms="2716" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- emptyPasswordLogin -->
-        <test-method is-config="true" signature="clearFields()[pri:0, instance:glue.gluewebapp.testcases.LoginTest@2e6a8155]" started-at="2024-08-08T21:08:19 IST" name="clearFields" finished-at="2024-08-08T21:08:19 IST" duration-ms="376" status="PASS">
+        <test-method is-config="true" signature="clearFields()[pri:0, instance:glue.gluewebapp.testcases.LoginTest@76b1e9b8]" started-at="2024-08-22T00:23:53 IST" name="clearFields" finished-at="2024-08-22T00:23:54 IST" duration-ms="569" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clearFields -->
-        <test-method signature="invalidEmailLoginTest()[pri:2, instance:glue.gluewebapp.testcases.LoginTest@2e6a8155]" started-at="2024-08-08T21:08:19 IST" name="invalidEmailLoginTest" finished-at="2024-08-08T21:08:20 IST" duration-ms="860" status="PASS">
+        <test-method signature="invalidEmailLoginTest()[pri:2, instance:glue.gluewebapp.testcases.LoginTest@76b1e9b8]" started-at="2024-08-22T00:23:54 IST" name="invalidEmailLoginTest" finished-at="2024-08-22T00:23:56 IST" duration-ms="1921" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidEmailLoginTest -->
-        <test-method is-config="true" signature="clearFields()[pri:0, instance:glue.gluewebapp.testcases.LoginTest@2e6a8155]" started-at="2024-08-08T21:08:20 IST" name="clearFields" finished-at="2024-08-08T21:08:20 IST" duration-ms="349" status="PASS">
+        <test-method is-config="true" signature="clearFields()[pri:0, instance:glue.gluewebapp.testcases.LoginTest@76b1e9b8]" started-at="2024-08-22T00:23:56 IST" name="clearFields" finished-at="2024-08-22T00:23:56 IST" duration-ms="351" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clearFields -->
-        <test-method signature="invalidPasswordLoginTest()[pri:3, instance:glue.gluewebapp.testcases.LoginTest@2e6a8155]" started-at="2024-08-08T21:08:20 IST" name="invalidPasswordLoginTest" finished-at="2024-08-08T21:08:21 IST" duration-ms="899" status="PASS">
+        <test-method signature="invalidPasswordLoginTest()[pri:3, instance:glue.gluewebapp.testcases.LoginTest@76b1e9b8]" started-at="2024-08-22T00:23:56 IST" name="invalidPasswordLoginTest" finished-at="2024-08-22T00:23:57 IST" duration-ms="1160" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidPasswordLoginTest -->
-        <test-method is-config="true" signature="clearFields()[pri:0, instance:glue.gluewebapp.testcases.LoginTest@2e6a8155]" started-at="2024-08-08T21:08:21 IST" name="clearFields" finished-at="2024-08-08T21:08:22 IST" duration-ms="404" status="PASS">
+        <test-method is-config="true" signature="clearFields()[pri:0, instance:glue.gluewebapp.testcases.LoginTest@76b1e9b8]" started-at="2024-08-22T00:23:57 IST" name="clearFields" finished-at="2024-08-22T00:23:58 IST" duration-ms="405" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clearFields -->
-        <test-method signature="eyeIconDisabledModeTest()[pri:4, instance:glue.gluewebapp.testcases.LoginTest@2e6a8155]" started-at="2024-08-08T21:08:22 IST" name="eyeIconDisabledModeTest" finished-at="2024-08-08T21:08:22 IST" duration-ms="112" status="PASS">
+        <test-method signature="eyeIconDisabledModeTest()[pri:4, instance:glue.gluewebapp.testcases.LoginTest@76b1e9b8]" started-at="2024-08-22T00:23:58 IST" name="eyeIconDisabledModeTest" finished-at="2024-08-22T00:23:58 IST" duration-ms="208" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- eyeIconDisabledModeTest -->
-        <test-method is-config="true" signature="clearFields()[pri:0, instance:glue.gluewebapp.testcases.LoginTest@2e6a8155]" started-at="2024-08-08T21:08:22 IST" name="clearFields" finished-at="2024-08-08T21:08:22 IST" duration-ms="364" status="PASS">
+        <test-method is-config="true" signature="clearFields()[pri:0, instance:glue.gluewebapp.testcases.LoginTest@76b1e9b8]" started-at="2024-08-22T00:23:58 IST" name="clearFields" finished-at="2024-08-22T00:23:58 IST" duration-ms="299" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clearFields -->
-        <test-method signature="eyeIconEnableModeTest()[pri:5, instance:glue.gluewebapp.testcases.LoginTest@2e6a8155]" started-at="2024-08-08T21:08:22 IST" name="eyeIconEnableModeTest" finished-at="2024-08-08T21:08:22 IST" duration-ms="178" status="PASS">
+        <test-method signature="eyeIconEnableModeTest()[pri:5, instance:glue.gluewebapp.testcases.LoginTest@76b1e9b8]" started-at="2024-08-22T00:23:58 IST" name="eyeIconEnableModeTest" finished-at="2024-08-22T00:23:59 IST" duration-ms="576" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- eyeIconEnableModeTest -->
-        <test-method is-config="true" signature="clearFields()[pri:0, instance:glue.gluewebapp.testcases.LoginTest@2e6a8155]" started-at="2024-08-08T21:08:22 IST" name="clearFields" finished-at="2024-08-08T21:08:23 IST" duration-ms="371" status="PASS">
+        <test-method is-config="true" signature="clearFields()[pri:0, instance:glue.gluewebapp.testcases.LoginTest@76b1e9b8]" started-at="2024-08-22T00:23:59 IST" name="clearFields" finished-at="2024-08-22T00:23:59 IST" duration-ms="418" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clearFields -->
-        <test-method signature="validLoginScenario()[pri:6, instance:glue.gluewebapp.testcases.LoginTest@2e6a8155]" started-at="2024-08-08T21:08:23 IST" name="validLoginScenario" finished-at="2024-08-08T21:08:24 IST" duration-ms="1243" status="PASS">
+        <test-method signature="validLoginScenario()[pri:6, instance:glue.gluewebapp.testcases.LoginTest@76b1e9b8]" started-at="2024-08-22T00:23:59 IST" name="validLoginScenario" finished-at="2024-08-22T00:24:36 IST" duration-ms="36965" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validLoginScenario -->
       </class> <!-- glue.gluewebapp.testcases.LoginTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- ParallelSuite -->
 </testng-results>

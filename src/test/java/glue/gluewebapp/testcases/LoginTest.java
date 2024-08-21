@@ -29,9 +29,12 @@ public class LoginTest extends BaseClass {
 
 	@BeforeMethod
 	public void clearFields() {
-		actions.click(logEle.getEmailField()).keyDown(Keys.CONTROL).sendKeys("a").keyUp(Keys.CONTROL)
+		String os = System.getProperty("os.name").toLowerCase();// Check if the system is macOS
+	    Keys commandOrControl = os.contains("mac") ? Keys.COMMAND : Keys.CONTROL;
+	    
+		actions.click(logEle.getEmailField()).keyDown(commandOrControl).sendKeys("a").keyUp(commandOrControl)
 				.keyDown(Keys.DELETE).build().perform();
-		actions.click(logEle.getPasswordField()).keyDown(Keys.CONTROL).sendKeys("a").keyUp(Keys.CONTROL)
+		actions.click(logEle.getPasswordField()).keyDown(commandOrControl).sendKeys("a").keyUp(commandOrControl)
 				.keyDown(Keys.DELETE).build().perform();
 	}
 
@@ -78,7 +81,7 @@ public class LoginTest extends BaseClass {
 		logEle.getLoginButton().click();
 		WebElement loginErrorMessage = driver.findElement(By.xpath("//p[text()=\"Invalid email or password\"]"));
 		Assert.assertTrue(loginErrorMessage.isDisplayed());
-		Log.info("Successfully logged into the application");
+		
 	}
 
 	// Login with Invalid Password
@@ -90,7 +93,6 @@ public class LoginTest extends BaseClass {
 		logEle.getLoginButton().click();
 		WebElement loginErrorMessage = driver.findElement(By.xpath("//p[text()=\"Invalid email or password\"]"));
 		Assert.assertTrue(loginErrorMessage.isDisplayed());
-		Log.info("Successfully logged into the application");
 	}
 
 	// Password is visible on click of Eye icon
@@ -100,7 +102,6 @@ public class LoginTest extends BaseClass {
 		logEle.setPasswordField(GenericLibrary.getConfigValue(sConfigPath, "inValidPassword"));
 		boolean passwordVisibility = logEle.getHiddenPassword().isDisplayed();
 		Assert.assertTrue(passwordVisibility);
-		Log.info("Successfully logged into the application");
 	}
 
 	// Password is visible on click of Eye icon
@@ -111,7 +112,7 @@ public class LoginTest extends BaseClass {
 		logEle.getEyeIcon().click();
 		boolean passwordVisibility = logEle.getVisiblePassword().isDisplayed();
 		Assert.assertTrue(passwordVisibility);
-		Log.info("Successfully logged into the application");
+		
 	}
 
 	//Valid Email and Password Test

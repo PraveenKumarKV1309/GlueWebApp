@@ -6,9 +6,12 @@
     <classes>
       <class name="glue.gluewebapp.testcases.LoginTest">
         <methods>
-          <include name="CheckLaunch"/>
-          <include name="closeBrowser"/>
+          <include name="intitialize"/>
+          <include name="clearFields"/>
+          <include name="invalidEmailLoginTest"/>
+          <include name="validLoginScenario"/>
           <include name="initialize"/>
+          <include name="invalidPasswordLoginTest"/>
         </methods>
       </class> <!-- glue.gluewebapp.testcases.LoginTest -->
     </classes>
